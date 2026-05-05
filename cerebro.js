@@ -6,7 +6,7 @@
 // ⚠️ Tu método de dividir clave NO protege realmente.
 // Solo oculta visualmente. Ideal: backend/proxy.
 const P1 = "gsk_";
-const P2 = "FvO4x60PpE8mg5ML7M7aWGdyb3FYtVxcQuHdEP62SShsQKdS6ekz";
+const P2 = "RAHceE1v5YPoKgCRn0OxWGdyb3FYjFFr7SjQi7oBUVK0fFVd1qMZ";
 const API_KEY = P1 + P2;
 
 // MODELOS ACTUALES
