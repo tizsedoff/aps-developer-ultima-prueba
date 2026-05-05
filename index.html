@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS DEVELOPER v3.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="logo">
+                <h1>APS <span>DEVELOPER</span></h1>
+                <p>v3.0 | INTELLIGENT SUPPORT BY APS (TIZI)</p>
+            </div>
+        </header>
+
+        <div id="chat-container" class="chat-box">
+            <div class="mensaje-ia">¡Hola! Bienvenido a APS Shop. ¿Qué equipo estamos revisando hoy?</div>
+        </div>
+
+        <div class="input-area">
+            <button id="btn-imagen" class="action-btn">
+                <i class="fas fa-paperclip"></i>
+            </button>
+            <input type="text" id="user-input" placeholder="Escribe aquí..." onkeypress="if(event.key === 'Enter') ejecutarIA()">
+            <button class="send-btn" onclick="ejecutarIA()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <script src="cerebro.js"></script>
+</body>
+</html>
